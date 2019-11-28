@@ -1,4 +1,4 @@
-* { box-sizing: border-box; }
+/* { box-sizing: border-box; }
 
 @font-face {
   font-family: 'brewery';
@@ -72,4 +72,136 @@ p > span { display: block; padding-bottom: 12px; }
   color: white; 
   background-color: salmon; 
   margin-top: 8px
+}*/
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.container
+ {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.hidden
+{
+  display: none;
+}
+
+#hide
+{
+  display: none;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+}
+
+#desktopImage {
+  display: none;
+}
+
+.header h1
+{
+  font-family: 'Oleo Script', cursive;
+}
+.header h2 
+{
+  font-family: 'Bevan', cursive;
+color: black;
+}
+
+.header p
+{
+  font-family: 'Oleo Script', cursive;
+}
+.articles h1 
+{
+  text-align: center;
+  font-size: 40px;
+  color: #570f1e;
+}
+
+
+
+.articles button
+{
+  height: 40px;
+  width: 40%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 30px;
+  margin-left: 135px;
+}
+
+.boxes h1{
+  text-align: center;
+}
+
+
+
+body{
+  /*background-color: grey;*/
+  /*background: linear-gradient(to right, black 50%, #fff 50%);*/
+}
+
+.header{
+  color: #570f1e;
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+
+
+
+.header 
+{
+ 
+  float: left;
+  margin-left: 50px;
+
+}
+
+#desktopImage
+{
+  display: block;
+  margin-left: 400px;
+}
+
+
+#box
+{
+  margin-right: 500px;
+  width:30%;
+}
+
+#box1
+{
+  float: right;
+  
+}
+
+#mobileImage
+{
+  display: none;
+}
+
+
+}
+
+@media screen and (min-width: 968px) {
+
+#desktopImage
+{
+  margin-top: 00px;
+}
+
 }
